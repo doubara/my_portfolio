@@ -1,8 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 import visualizer from '../assets/visualizer.png'
-import saitama from '../assets/saitama.png';
 import pending from '../assets/pending.png';
+import shortly from '../assets/shortly.png'
+import wordlens from '../assets/wordlens.png'
+import grid from '../assets/grid.png'
 
 const projectsArray = [
     {
@@ -11,19 +13,19 @@ const projectsArray = [
     repoUrl: 'https://github.com/doubara/sorting-algorithm-visualizer',
     },
     {
-        imageUrl: pending,
-        liveUrl: '#',
-        repoUrl: '#',
+        imageUrl: shortly,
+        liveUrl: 'https://sparkling-crisp-ad3cbf.netlify.app/',
+        repoUrl: 'https://github.com/doubara/url-shortener-app',
     },
     {
-        imageUrl: pending,
-        liveUrl: '#',
-        repoUrl: '#',
+        imageUrl: wordlens,
+        liveUrl: 'https://wordlens-pi.vercel.app/',
+        repoUrl: 'https://github.com/doubara/wordlens',
     },
     {
-        imageUrl: pending,
-        liveUrl: '#',
-        repoUrl: '#',
+        imageUrl: grid,
+        liveUrl: 'https://gird-selection.vercel.app/',
+        repoUrl: 'https://github.com/doubara/gird-selection',
     },
 ]
 
